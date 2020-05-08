@@ -291,8 +291,12 @@ textarea::placeholder {
 
 input:focus,
 textarea:focus,
-input[type="submit"]:focus {
+input[type="submit"]:hover {
   box-shadow: 0px 0px 10px #999;
+}
+
+input[type="submit"]:focus {
+  box-shadow: inset 0px 0px 10px #000;
 }
 
 input[name="user-name"]:valid,
