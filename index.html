@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-	<title>Homework-07</title>
-	<link rel="stylesheet" href="css/normalize.css" />
-	<link rel="stylesheet" href="css/style.css" />
-</head>
-<body>
-	<header class="container header">
+    <title>Homework-07</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="container header">
       <h1 class="header-logo">
         <a href="#" class="header-logo__link">
           Golden
@@ -17,52 +17,91 @@
       </h1>
       <nav>
         <ul class="header-menu">
-          <li class="menu-item"><a class="menu-item__link"  href="#">Home</a></li>
-          <li class="menu-item"><a class="menu-item__link" href="#">Services</a></li>
-          <li class="menu-item"><a  class="menu-item__link" href="#">Portfolio</a></li>
-          <li class="menu-item"><a  class="menu-item__link" href="#">About</a></li>
-          <li class="menu-item"><a  class="menu-item__link" href="#">Contact</a></li>
+          <li class="menu-item">
+            <a class="menu-item__link" href="#">Home</a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-item__link" href="#">Services</a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-item__link" href="#">Portfolio</a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-item__link" href="#">About</a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-item__link" href="#">Contact</a>
+          </li>
         </ul>
       </nav>
-  </header>
-  <section class="services container">
-    <h2 class="section-header">
-      Services
-    </h2>
-    <p class="section-header__script ">Proin iaculis purus consequat sem cure.</p>
-    <ul class="services-list">
-      <li class="services-list__item">
-        <h3 class="services-list__item-title">E-Commerce</h3>
-        <p class="services-list__item-paragraph">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
-      </li>
-      <li class="services-list__item line-graph">
-        <h3 class="services-list__item-title">Responsive Web</h3>
-        <p class="services-list__item-paragraph">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
-      </li>
-      <li class="services-list__item comp">
-        <h3 class="services-list__item-title">Web Security</h3>
-        <p class="services-list__item-paragraph">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
-      </li>
-    </ul>
-  </section>
-  <section class="contacts">
-    <div class="container">
-      <h2 class="section-header white">
-      Contact Us
+    </header>
+    <section class="services container">
+      <h2 class="section-header">
+        Services
       </h2>
-      <p class="section-header__script ">Proin iaculis purus consequat sem cure.</p>
-      <form action="#" method="post">
-        <section class="message-form">
-          <div class="user-data">
-            <input type="text" name="user-name" placeholder="Your name*" required>
-            <input name="user-email" type="email" placeholder="Your e-mail*" required>
-            <input type="text" name="message-subject" placeholder="Subject">
-          </div>
-          <textarea name="message-text" placeholder="Your message*" cols="20" rows="9" required></textarea>
-        </section>
-        <input type="submit" value="send message" class="white">
-      </form>
-    </div>
-  </section>
-</body>
+      <p class="section-header__script">
+        Proin iaculis purus consequat sem cure.
+      </p>
+      <ul class="services-list">
+        <li class="services-list__item">
+          <h3 class="services-list__item-title">E-Commerce</h3>
+          <p class="services-list__item-paragraph">
+            Proin iaculis purus consequat sem cure digni ssim. Donec porttitora
+            entum suscipit aenean rhoncus posuere odio in tincidunt.
+          </p>
+        </li>
+        <li class="services-list__item line-graph">
+          <h3 class="services-list__item-title">Responsive Web</h3>
+          <p class="services-list__item-paragraph">
+            Proin iaculis purus consequat sem cure digni ssim. Donec porttitora
+            entum suscipit aenean rhoncus posuere odio in tincidunt.
+          </p>
+        </li>
+        <li class="services-list__item comp">
+          <h3 class="services-list__item-title">Web Security</h3>
+          <p class="services-list__item-paragraph">
+            Proin iaculis purus consequat sem cure digni ssim. Donec porttitora
+            entum suscipit aenean rhoncus posuere odio in tincidunt.
+          </p>
+        </li>
+      </ul>
+    </section>
+    <section class="contacts">
+      <div class="container">
+        <h2 class="section-header white">
+          Contact Us
+        </h2>
+        <p class="section-header__script">
+          Proin iaculis purus consequat sem cure.
+        </p>
+        <form action="#" method="post">
+          <section class="message-form">
+            <div class="user-data">
+              <input
+                type="text"
+                name="user-name"
+                placeholder="Your name*"
+                required
+              />
+              <input
+                name="user-email"
+                type="email"
+                placeholder="Your e-mail*"
+                required
+              />
+              <input type="text" name="message-subject" placeholder="Subject" />
+            </div>
+            <textarea
+              name="message-text"
+              placeholder="Your message*"
+              cols="20"
+              rows="9"
+              required
+            ></textarea>
+          </section>
+          <input type="submit" value="send message" class="white" />
+        </form>
+      </div>
+    </section>
+  </body>
 </html>
