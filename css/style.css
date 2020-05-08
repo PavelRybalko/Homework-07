@@ -249,10 +249,12 @@ input[type="radio"].visually-hidden {
   margin-bottom: 28px;
 }
 
-input {
+input,
+textarea {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
-  border: 1px solid #e5e5e5;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
   height: 52px;
   width: 455px;
   padding-left: 20px;
@@ -261,7 +263,6 @@ input {
 textarea {
   font-family: inherit;
   height: 212px;
-  width: 455px;
   resize: none;
   padding: 16px;
 }
